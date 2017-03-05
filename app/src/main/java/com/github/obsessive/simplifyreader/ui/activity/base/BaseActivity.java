@@ -23,7 +23,7 @@ import com.github.obsessive.library.base.BaseAppCompatActivity;
 import com.github.obsessive.simplifyreader.R;
 import com.github.obsessive.simplifyreader.SimplifyReaderApplication;
 import com.github.obsessive.simplifyreader.view.base.BaseView;
-import com.umeng.analytics.MobclickAgent;
+// import com.umeng.analytics.MobclickAgent;
 
 import butterknife.ButterKnife;
 
@@ -59,13 +59,13 @@ public abstract class BaseActivity extends BaseAppCompatActivity implements Base
     @Override
     protected void onResume() {
         super.onResume();
-        MobclickAgent.onResume(this);
+        // MobclickAgent.onResume(this);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        MobclickAgent.onPause(this);
+        // MobclickAgent.onPause(this);
     }
 
     protected SimplifyReaderApplication getBaseApplication() {

@@ -30,7 +30,7 @@ import com.github.obsessive.simplifyreader.presenter.Presenter;
 import com.github.obsessive.simplifyreader.presenter.impl.SplashPresenterImpl;
 import com.github.obsessive.simplifyreader.ui.activity.base.BaseActivity;
 import com.github.obsessive.simplifyreader.view.SplashView;
-import com.umeng.analytics.AnalyticsConfig;
+// import com.umeng.analytics.AnalyticsConfig;
 
 import butterknife.InjectView;
 
@@ -126,11 +126,11 @@ public class SplashActivity extends BaseActivity implements SplashView {
         mSplashImage.setImageResource(backgroundResId);
     }
 
-    @Override
-    public void initializeUmengConfig() {
-        AnalyticsConfig.setAppkey(this, "55018d77fd98c5901e000a09");
-        AnalyticsConfig.setChannel("SimplifyReader");
-    }
+    // @Override
+    // public void initializeUmengConfig() {
+        // AnalyticsConfig.setAppkey(this, "55018d77fd98c5901e000a09");
+        // AnalyticsConfig.setChannel("SimplifyReader");
+    // }
 
     @Override
     public void navigateToHomePage() {

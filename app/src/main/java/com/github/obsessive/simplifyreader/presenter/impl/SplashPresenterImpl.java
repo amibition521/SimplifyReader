@@ -48,7 +48,7 @@ public class SplashPresenterImpl implements Presenter {
 
     @Override
     public void initialized() {
-        mSplashView.initializeUmengConfig();
+        // mSplashView.initializeUmengConfig();
         mSplashView.initializeViews(mSplashInteractor.getVersionName(mContext),
                 mSplashInteractor.getCopyright(mContext),
                 mSplashInteractor.getBackgroundImageResID());
